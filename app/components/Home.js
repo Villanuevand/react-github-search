@@ -1,3 +1,12 @@
-/**
- * Created by avillanueva on 10/1/17.
- */
+import React from 'react';
+
+export default class Home extends React.Component {
+	render () {
+		return (
+			<h2 className="text-center">
+				Search by Github User Above
+			</h2>
+		);
+	}
+}
+
