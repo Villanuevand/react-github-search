@@ -5,7 +5,7 @@ import Home from '../components/Home';
 
 const routes = (
 	<Router>
-		<Route path="/" component={Main}>
+		<Route path="/react-github-search/public/index.html" component={Main}>
 			<IndexRoute component={Home} />
 		</Route>
 	</Router>
