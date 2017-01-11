@@ -1,6 +1,15 @@
 
+
 module.exports = {
 	entry: './app/app-client.js',
+	devServer: {
+		inline: true,
+		port: 3333,
+		contentBase: "public/",
+		historyApiFallback: {
+			index: 'index.html'
+		}
+	},
 	output: {
 		filename: './public/bundle.js'
 	},
