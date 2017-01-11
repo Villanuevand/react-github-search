@@ -5,11 +5,9 @@ import Home from '../components/Home';
 import Profile from '../components/Profile';
 
 const routes = (
-	<Route>
-		<Route path="/public/" component={Main}>
-			<Route path='/public/:username' component={Profile}/>
-			<IndexRoute component={Home} />
-		</Route>
+	<Route path="/" component={Main}>
+		<Route path='/profile/:username' component={Profile}/>
+		<IndexRoute component={Home} />
 	</Route>
 );
 
