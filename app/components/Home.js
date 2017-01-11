@@ -4,7 +4,7 @@ export default class Home extends React.Component {
 	render () {
 		return (
 			<h2 className="text-center">
-				Search by Github User Above
+				Search by Github User Above.
 			</h2>
 		);
 	}
